@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi, how are you? 👋<br><ul><li>😎 I am a Software Engineer with a passion for web development and cyber security.</li><li>🌱 I'm currently learning front end development with React.</li><li>⚡Fun fact - If it were brighter, the Andromeda Galaxy would appear six times bigger than a full moon.</li><li>📬 Shoot me an <a href="mailto:ardamoin2@gmail.com">Email</a> or add me on <a href="https://www.linkedin.com/in/arda-m-4a3594112/" target="_blank">LinkedIn<a/> :)</li></ul>
+Hi, how are you? 👋<br><ul><li>😎 I am a Software Engineer with a passion for web development and cyber security.</li><li>🌱 I'm currently learning front end development with React.</li><li>⚡Fun fact - If it were brighter, the Andromeda Galaxy would appear six times bigger than a full moon.</li><li>📬 Shoot me an <a href="mailto:ardamoin2@gmail.com">Email</a> or add me on <a href="https://www.linkedin.com/in/arda-m-4a3594112/">LinkedIn<a/> :)</li></ul>
 
 
 ## 🌐 Socials:
