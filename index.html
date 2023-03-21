@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Arda Moin</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">  
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar-responsive.css">
+    <!-- github activity css -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">  
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">     
+	        <div class="row align-items-center">
+			    <div class="col">         
+		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.png" alt="profile image" />
+		            <div class="profile-content">
+		                <h1 class="name">Arda Moin</h1>
+		                <h2 class="desc">Software Engineer</h2>   
+		                <ul class="social list-inline">
+		                    <li class="list-inline-item"><a href="https://twitter.com/moin_arda" target="_blank"><i class="fab fa-twitter"></i></a></li>
+		                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/arda-m-4a3594112/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+		                    <li class="list-inline-item"><a href="https://github.com/ardamoin" target="_blank"><i class="fab fa-github-alt"></i></a></li>    
+                            <li class="list-inline-item last-item"><a href="https://www.instagram.com/ardamoin/" target="_blank"><i class="fab fa-instagram"></i></a></li>             
+		                </ul> 
+		            </div><!--//profile-->
+			    </div><!--//col-->
+	            <div class="col-12 col-md-auto">
+		            <div class="dark-mode-switch d-flex">
+						<div class="form-check form-switch mx-auto mx-md-0">
+							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
+							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+						</div>
+			        </div><!--//dark-mode-switch-->
+	                <a class="btn btn-cta-primary" href="mailto:ardamoin2@gmail.com" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>        
+	            </div><!--//col-->
+	        </div><!--//row-->         
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper py-5">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>Hi there, my name is Arda and I'm a <span id="age"></span>-year-old self-taught software engineer who loves building web applications and exploring new technologies. When I'm not busy coding, you can usually find me playing ping pong, strategizing my next chess move, or scrolling through Reddit for the latest memes. I have a genuine passion for programming and I'm always eager to learn and improve my skills. But don't worry, I also have a great sense of humor that keeps my coworkers smiling. If you're looking for a driven and enthusiastic addition to your team, I'm your guy!</p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://ardamoin.github.io/weather-app/" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-featured.jpg" alt="Weather App" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">New</div>
+                                    </div>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="https://ardamoin.github.io/weather-app/" target="_blank">Weather App - Get weather data for anywhere, anytime</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p>Looking for an intuitive and sleek weather app? Look no further than our React JS-powered weather app, which delivers accurate and up-to-date information for your location and beyond with ease. With its user-friendly interface and reliable data from OpenWeatherMap API, this app provides a seamless experience for staying on top of the weather, no matter where you are in the world. So why wait? Open our weather app today and stay one step ahead of the weather.</p>
+                                </div><!--//desc-->         
+                                <a class="btn btn-cta-secondary" href="https://github.com/ardamoin/weather-app" target="_blank"><i class="fas fa-thumbs-up"></i> Back my project</a>                 
+                            </div><!--//item-->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://ardamoin.github.io/todo-list/" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-1.png" alt="TODO List" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://ardamoin.github.io/todo-list/" target="_blank">TODO List - A one stop shop to track all your tasks</a></h3>
+                                    <p class="mb-2">Our JavaScript-powered todo list app is the perfect tool to help you stay on top of your daily tasks, and with the power of localStorage API, your data is always secure and accessible whenever you need it. Open our app today and take control of your schedule!</p>
+                                    <p><a class="more-link" href="https://github.com/ardamoin/todo-list" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://ardamoin.github.io/calculator/" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-2.png" alt="Calculator App" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://ardamoin.github.io/calculator/" target="_blank">Calculator App - Calculate to your heart's content</a></h3>
+                                    <p class="mb-2">Looking for a sleek and intuitive calculator app? Look no further than our powerful calculator! With a user-friendly interface and advanced functionality, our app makes crunching numbers a breeze. Open it now and simplify your calculations!</p>
+                                    <p><a class="more-link" href="https://github.com/ardamoin/calculator" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                             <div class="item row">
+                                <a class="col-md-4 col-12" href="https://ardamoin.github.io/etch-a-sketch/" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-3.png" alt="Etch-A-Sketch" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://ardamoin.github.io/etch-a-sketch/" target="_blank">Etch-A-Sketch - Unleash your creativity</a></h3>
+                                    <p class="mb-2">Explore your artistic talents and experience the nostalgic joy of drawing with our Etch-a-Sketch app, the perfect tool for artists and doodlers of all levels, crafted with JavaScript for an intuitive and fun user experience.</p>
+                                    <p><a class="more-link" href="https://github.com/ardamoin/etch-a-sketch" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://ardamoin.github.io/restaurant-page/" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-4.png" alt="Los Pollos Hermanos" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://ardamoin.github.io/restaurant-page/" target="_blank">Los Pollos Hermanos - A landing page for your favorite chicken franchise</a></h3>
+                                    <p class="mb-2">Los Pollos Hermanos landing page is a visually stunning website that captures the essence of the iconic restaurant from the hit TV show "Breaking Bad" and immerses you in the world of Walter White and Jesse Pinkman, while offering a unique and interactive experience that will leave you craving for more.</p>
+                                    <p><a class="more-link" href="https://github.com/ardamoin/restaurant-page" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->                            
+
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                
+                </section><!--//section-->
+                
+                <section class="projects section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Other Projects</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href="https://github.com/ardamoin/Word-to-Pdf-Converter" target="_blank">Word-to-PDF - A Java desktop app for Word to PDF conversion</a> <span class="badge badge-theme">Free</span></h3>
+                                <p class="summary">Word-to-PDF is a GUI built with Java Swing to generate PDF files for Microsoft Word file inputs.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a>Tekled Scraper - A Python web scraping & data analysis tool</a></h3>
+                                <p class="summary">Tekled Scraper is a proprietary Python program that uses beautifulsoup4 and openpyxl to scrape and analyze data from thousands of product listings on tekled.co.uk.</p>
+                            </div><!--//item-->
+                            
+                            <a class="btn btn-cta-secondary" href="https://github.com/ardamoin?tab=repositories" target="_blank">More on GitHub <i class="fas fa-chevron-right pt-1"></i></a>
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Software Engineer - <span class="place"><a href="https://www.linkedin.com/in/arda-m-4a3594112/">Freelance</a></span> <span class="year">(2022 - Present)</span></h3>
+                                <p>Actively building and maintaining web apps of ever increasing complexity for my clients that I source through social media advertisements and my personal network.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Estate Processor - <span class="place"><a href="https://www.cibc.com/en/personal-banking.html">CIBC</a></span> <span class="year">(2021 - Present)</span></h3>
+                                <p>Managed the settlement of deceased client accounts at CIBC, while providing
+                                    support for onboarding and training new team members.</p>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                <section class="github section" style="display: none;">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">My GitHub</h2>
+                        <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
+                        
+                        <div id="github-graph" class="github-graph">
+
+                        </div><!--//github-graph-->
+                        
+
+                        <p>You can also embed your GitHub activities using Casey Scarborough's <a href="https://github.com/caseyscarborough/github-activity" target="_blank">GitHub Activity Stream</a> widget.        
+                        <!--//Usage: https://caseyscarborough.com/projects/github-activity/ -->                       
+                        <div id="ghfeed" class="ghfeed">
+                        </div><!--//ghfeed-->
+                        
+                    </div><!--//secton-inner-->
+                </section><!--//section-->
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Toronto, ON</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">ardamoin2@gmail.com</a></li>
+                                <li><i class="fas fa-phone"></i><span class="sr-only">Website:</span><a href="#">(647) 819 5105</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                        
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">HTML5, CSS3, JavaScript<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="High familiarity and in-depth knowledge"><i class="fas fa-info-circle"></i>Expert</span></h3>
+
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 96%" aria-valuenow="96"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                               
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">React.js<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Working experience and substantial knowledge"><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 80%" aria-valuenow="80"  aria-valuemin="0" aria-valuemax="80"></div>
+									</div><!--//level-bar-->                                   
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Python &amp; Jupyter Notebook<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="High familiarity and in-depth knowledge"><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 93%" aria-valuenow="93"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Java<span class="level-label" data-bs-toggle="tooltip" data-placement="left" title="Working experience and substantial knowledge"><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <div class="level-bar progress">
+									    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 86%" aria-valuenow="86"  aria-valuemin="0" aria-valuemax="96"></div>
+									</div><!--//level-bar-->                                  
+                                </div><!--//item-->
+                                
+                                <p><a class="more-link" href="https://github.com/ardamoin" target="_blank"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p> 
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                <aside class="testimonials aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Testimonials</h2>
+                        <div class="content">
+                            <div class="item">
+                                <blockquote class="quote">                                  
+                                    <p><i class="fas fa-quote-left"></i>Arda is an excellent software engineer and he is passionate about what he does. You can count on him to deliver your projects!</p>
+                                </blockquote>                
+                                <p class="source"><span class="name">Steve Rodriguez</span><br /><span class="title">Team Leader at CIBC</span></p>                                                             
+                            </div><!--//item-->
+                            
+                            <p><a class="more-link" href="https://www.linkedin.com/in/arda-m-4a3594112/" target="_blank"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
+                            
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BA Business Economics</h3>
+                                <h4 class="university">York University <span class="year">(2017-2021)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> High School Diploma</h3>
+                                <h4 class="university">Braemar College <span class="year">(2013-2017)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Native or Bilingual Proficiency <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Turkish:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="list music aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Favourite coding music</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=v1ew-LgLFFI&ab_channel=EsotericSoundResearch-Topic" target="_blank">Esoteric Sound Resarch - Long Distance</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=Sdm3qNoEL5Q&ab_channel=Fluidified" target="_blank">GASFACE & Temporal - Don't You Worry</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=Jdpu61HIGhA&ab_channel=Jam%27addict-Topic" target="_blank">Jam'addict - Dusk Till Dawn</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=MlK1mbeeCcE&t=9s&ab_channel=LofiFruits" target="_blank">Lofi Fruits - I'm Yours</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+        
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script> 
+    <script>
+        // Display the age on the webpage
+        let today = new Date();
+        let birthdate = new Date("1999-08-16");
+        let age = today.getFullYear() - birthdate.getFullYear();
+        let months = today.getMonth() - birthdate.getMonth();
+        if (months < 0 || (months === 0 && today.getDate() < birthdate.getDate())) {
+          age--;
+        }
+        document.getElementById("age").textContent = age;
+    </script>           
+    
+</body>
+</html> 
+
